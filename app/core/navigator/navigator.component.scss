@@ -1,0 +1,34 @@
+img {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  background-color: #FCF5A9;
+}
+
+ul {
+  height: 16vh;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  margin-left: 3%;
+  text-transform: uppercase;
+  font-size: 2rem;
+}

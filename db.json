@@ -1,0 +1,103 @@
+{
+  "sets": [
+    {
+      "name": "Montaña rusa",
+      "price": 399.99,
+      "image": "https://www.lego.com/cdn/cs/set/assets/blt916fef1f2c350be4/10261.jpg?fit=bounds&format=jpg&quality=80&width=1500&height=1500&dpr=1",
+      "collection": "Creator Expert",
+      "pieces": 4124,
+      "age": "+16",
+      "measures": "41 x 88 x 53",
+      "year": 2018,
+      "id": 1
+    },
+    {
+      "name": "Coliseo romano",
+      "price": 499.99,
+      "image": "https://www.lego.com/cdn/cs/set/assets/blt86423e4ec25d4312/10276.jpg?fit=bounds&format=jpg&quality=80&width=1500&height=1500&dpr=1",
+      "collection": "Creator Expert",
+      "pieces": 9036,
+      "age": "+18",
+      "measures": "59 x 52 x 27",
+      "year": 2020,
+      "id": 3
+    },
+    {
+      "name": "Taj Mahal",
+      "price": 119.99,
+      "image": "https://www.lego.com/cdn/cs/set/assets/blt5d868260e893b88d/21056.jpg?fit=bounds&format=jpg&quality=80&width=1500&height=1500&dpr=1",
+      "collection": "Architecture",
+      "pieces": 2022,
+      "age": "+18",
+      "measures": "23 x 23 x 20",
+      "year": 2021,
+      "id": 4
+    },
+    {
+      "name": "Gran Pirámide de Guiza",
+      "price": 139.99,
+      "image": "https://www.lego.com/cdn/cs/set/assets/blt5dfc0219b6a0ebff/21058_alt2.png",
+      "collection": "Architecture",
+      "pieces": 1476,
+      "age": "+18",
+      "measures": "32 x 35 x 20",
+      "year": 2022,
+      "id": 5
+    },
+    {
+      "name": "La Casa Blanca",
+      "price": 99.99,
+      "image": "https://www.lego.com/cdn/cs/set/assets/blt92a894b291b4c966/21054.jpg?fit=bounds&format=jpg&quality=80&width=1200&height=1200&dpr=1",
+      "collection": "Architecture",
+      "pieces": 1483,
+      "age": "+18",
+      "measures": "20 x 47 x 11",
+      "year": 2020,
+      "id": 6
+    },
+    {
+      "name": "La Noche Estrellada",
+      "price": 169.99,
+      "image": "https://www.lego.com/cdn/cs/set/assets/bltc6d87e5e7bacb3ae/21333.png?fit=bounds&format=png&width=1500&height=1500&dpr=1",
+      "collection": "Ideas",
+      "pieces": 2316,
+      "age": "+18",
+      "measures": "12 x 38 x 30",
+      "year": 2022,
+      "id": 7
+    },
+    {
+      "name": "LEGO Ideas: Home Alone",
+      "price": 249.99,
+      "image": "https://www.lego.com/cdn/cs/set/assets/blt0ba2da641d7f0426/21330_prod.png?fit=bounds&format=png&width=528&height=528&dpr=1",
+      "collection": "Ideas",
+      "pieces": 3955,
+      "age": "+18",
+      "measures": "37 x 34 x 27",
+      "year": 2021,
+      "id": 8
+    },
+    {
+      "name": "Estación Espacial Internacional",
+      "price": 69.99,
+      "image": "https://www.lego.com/cdn/cs/set/assets/blt3777f348d7f98b8d/21321.jpg?fit=bounds&format=jpg&quality=80&width=1500&height=1500&dpr=1",
+      "collection": "Ideas",
+      "pieces": 864,
+      "age": "+16",
+      "measures": "31 x 49 x 20",
+      "year": 2020,
+      "id": 9
+    },
+    {
+      "name": "Gran plaza",
+      "price": "259.99",
+      "image": "https://www.lego.com/cdn/cs/set/assets/blt2a117fd004a11d91/10255.jpg?fit=bounds&format=jpg&quality=80&width=1500&height=1500&dpr=1",
+      "collection": "Creator Expert",
+      "pieces": "4002",
+      "age": "+16",
+      "measures": "25 x 38 x 35",
+      "year": "2017",
+      "id": 10
+    }
+  ]
+}

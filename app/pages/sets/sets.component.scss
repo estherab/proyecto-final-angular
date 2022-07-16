@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+.sets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 4%;
+}
+
+figure {
+  background-color: #FFFFFF;
+  width: 24%;
+  height: 35%;
+  margin: 2% 0;
+  padding: 1%;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Fira Sans', sans-serif;
+  letter-spacing: 2px;
+}
+
+img {
+  width: 360px;
+  height: 270px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.info {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: #FFF;
+  width: 24%;
+  height: 18.7%;
+  margin-top: 4.1%;
+  border-radius: 2%;
+}
+
+.infoText {
+  margin-left: 5%;
+}
+
+figure:hover .info {
+  display: block;
+}
+
+button {
+  font-size: 1.5rem;
+  background-color: #fd8024;
+  border: none;
+  padding: 2%;
+  margin-top: 1%;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #FFFFFF;
+  border: 2px solid #fd8024;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.filter {
+  background-color: #E7E1DA;
+  border-radius: 10%;
+  font-size: 1.5rem;
+  border: solid 2px black;
+  padding: 10px;
+  cursor: pointer;
+  margin: 0 2%;
+}
+
+input {
+  width: 16%;
+  margin-left: 42%;
+  margin-top: 2%;
+  font-size: 1.5rem;
+  border: 3px solid #fd8024;
+}
+
+input:focus{
+  outline: none;
+}

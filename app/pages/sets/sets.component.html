@@ -1,0 +1,30 @@
+<div class="filters">
+  <div class="filter" (click)="filter='Architecture'">Architecture</div>
+  <div class="filter" (click)="filter='Creator Expert'">Creator Expert</div>
+  <div class="filter" (click)="filter='Ideas'">Ideas</div>
+  <div class="filter" (click)="filter=''">Todas las colecciones</div>
+</div>
+
+<input type="text" [(ngModel)]="search" (ngModelChange)="onChangeFilter($event)" placeholder="Busca un set">
+
+<div class="sets">
+  <ng-container *ngFor="let set of wantedList">
+    <ng-template [ngIf]="set.collection == filter || filter == ''">
+      <figure>
+        <img src="{{set.image}}" alt="{{set.name}}">
+        <h1>{{set.name}}</h1>
+        <p>{{set.price}} €</p>
+
+        <div class="info">
+            <p class="infoText">Colección: {{set.collection}}</p>
+            <p class="infoText">Nº de piezas: {{set.pieces}}</p>
+            <p class="infoText">Edad recomendada: {{set.age}}</p>
+            <p class="infoText">Medidas: {{set.measures}}</p>
+            <p class="infoText">Año: {{set.year}}</p>
+        </div>
+
+        <button (click)="catchSet(set)">Editar</button>
+      </figure>
+    </ng-template>
+  </ng-container>
+</div>

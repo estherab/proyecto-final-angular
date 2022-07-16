@@ -1,0 +1,53 @@
+<section>
+  <form novalidate [formGroup]="setForm" (ngSubmit)="onSubmit()">
+
+    <label for="name">Nombre</label>
+    <input type="text" id="name" formControlName="name"/>
+
+    <label for="image">Imagen</label>
+    <input type="text" id="image" formControlName="image"/>
+
+    <label for="price">Precio</label>
+    <input type="text" id="price" formControlName="price"/>
+
+    <label for="collection">Colección</label>
+    <input type="text" id="collection" formControlName="collection"/>
+
+    <label for="pieces" ng-pattern="/^[0-9]/">Nº de piezas</label>
+    <input type="text" id="pieces" formControlName="pieces"/>
+
+    <label for="age">Edad recomendada</label>
+    <input type="text" id="age" formControlName="age"/>
+
+    <label for="measures">Medidas</label>
+    <input type="text" id="measures" formControlName="measures"/>
+
+    <label for="year">Año de lanzamiento</label>
+    <input type="text" id="year" formControlName="year"/>
+
+    <div class="buttons">
+      <button type="submit">Insertar/Editar</button>
+      <button *ngIf="setID !== ''" (click)="delete()" class="deleteButton">Borrar</button>
+    </div>
+  </form>
+
+  <figure>
+    <div>
+      <h1>Vista preliminar</h1>
+      <ng-template [ngIf]="newSet.image != ''">
+        <img src="{{newSet.image}}" alt="">
+      </ng-template>
+    </div>
+
+    <div class="features">
+      <h2>{{newSet.name}}</h2>
+      <p>Precio: {{newSet.price}} €</p>
+      <p>Colección: {{newSet.collection}}</p>
+      <p>Nº de piezas: {{newSet.pieces}}</p>
+      <p>Edad recomendada: {{newSet.age}}</p>
+      <p>Medidas: {{newSet.measures}}</p>
+      <p>Año de lanzamiento: {{newSet.year}}</p>
+    </div>
+  </figure>
+</section>
+
